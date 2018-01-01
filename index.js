@@ -16,3 +16,11 @@ function destructivelyRemoveLastKitten() {
 function destructivelyRemoveFirstKitten() {
   return kittens.shift();
 }
+
+function appendKitten(name) {
+  return kittens\.push("Ralph");
+}
+
+function destructivelyPrependKitten(name) {
+  return kittens.unshift("Bob");
+}
