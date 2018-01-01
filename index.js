@@ -18,10 +18,6 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  var [...kittens, "Broom"]
-  return kittens;
-}
-
-function destructivelyPrependKitten(name) {
-  return kittens.unshift("Bob");
+  var newList = [...kittens, "Broom"]
+  return newList;
 }
