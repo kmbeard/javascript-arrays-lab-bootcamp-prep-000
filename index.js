@@ -32,7 +32,7 @@ function removeLastKitten(name) {
   return newList;
 }
 
-function prependKitten(name) {
+function removeFirstKitten(name) {
   var newList = ["Arnold", ...kittens]
   return newList;
 }
