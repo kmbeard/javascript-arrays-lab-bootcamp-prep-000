@@ -27,12 +27,12 @@ function prependKitten(name) {
   return newList;
 }
 
-function removeLastKitten(name) {
-  var removedLast = ["Arnold", ...kittens]
+function removeLastKitten() {
+  var removedLast = kittens.slice(0, kittens.length -1);
   return removedLast;
 }
 
-function removeFirstKitten(name) {
-  var newList = ["Arnold", ...kittens]
-  return newList;
+function removeFirstKitten() {
+  var removedFirst = kittens.slice(1);
+  return removedFirst;
 }
