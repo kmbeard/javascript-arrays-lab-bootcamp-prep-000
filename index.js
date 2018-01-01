@@ -28,8 +28,8 @@ function prependKitten(name) {
 }
 
 function removeLastKitten(name) {
-  var newList = ["Arnold", ...kittens]
-  return newList;
+  var removedLast = ["Arnold", ...kittens]
+  return removedLast;
 }
 
 function removeFirstKitten(name) {
